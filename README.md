@@ -1,7 +1,7 @@
-# MeltDock
-Source code for the paper [MeltDock: A Multi-modal Multi-task Framework for Protein-ligand Interactions Prediction Boosted by Bayesian Flow Networks].
+# FlowDock
+Source code for the paper [FlowDock: A Unified Flow-Based Framework for Flexible Protein-Ligand Docking and Binding Affinity Prediction].
 
-MeltDock provides the users with a powerful method to study protein-ligand interactions which outputs multiple ranked binding poses, each coupled with the corresponding binding affinity and a confidence score. 
+FlowDock provides the users with a powerful method to study protein-ligand interactions which outputs multiple ranked binding poses, each coupled with the corresponding binding affinity and a confidence score. 
 
 
 # Setup Environment
@@ -12,11 +12,11 @@ Create a new environment for inference. While in the project directory run
 
 Or you setup step by step:
 
-    conda create -n meltdock python=3.10
+    conda create -n flowdock python=3.10
 
 Activate the environment
 
-    conda activate meltdock
+    conda activate flowdock
 
 Install
     
