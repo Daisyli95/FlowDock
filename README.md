@@ -62,11 +62,6 @@ The results of the docking step, typically found in the `results/test` folder, i
 
 1. **Affinity Score for Each Complex**: `affinity_prediction.csv`
 2. **Pose Score and Conformation of Each Animation**: Example files like `rank1_ligand_lddt0.63_affinity5.67_relaxed.sdf` (where 0.63 is the pose score) and corresponding protein `.pdb` files.
-3. **Data for Animation Generation**: Such as `rank1_reverseprocess_data_list.pkl` and `rank2_reverseprocess_data_list.pkl`.
-
-
-Outputs:
-- **Final Animation PDB Files**: Located in `results/test_1qg8/index0_idx_0/`, with files like `rank1_receptor_reverseprocess_relaxed.pdb` and `rank1_ligand_reverseprocess_relaxed.pdb`.
 
 
 
