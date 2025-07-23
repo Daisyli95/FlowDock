@@ -2,7 +2,7 @@
 Source code for the paper [FlowDock: A Unified Flow-Based Framework for Flexible Protein-Ligand Docking and Binding Affinity Prediction].
 
 FlowDock provides the users with a powerful method to study protein-ligand interactions which outputs multiple ranked binding poses, each coupled with the corresponding binding affinity and a confidence score. 
-
+![FlowDock](assets/fig1.svg)
 
 # Setup Environment
 
