@@ -30,8 +30,8 @@ Install
 
     conda install -c conda-forge openmm pdbfixer libstdcxx-ng openmmforcefields openff-toolkit ambertools=22 compilers biopython
 
-#Dataset
-We have uploaded the dataset at:
+# Dataset
+We have preprocessed the dataset as described in the article. The data upon request at the corresponding authors email. 
 # Inference
 
 ## Docking
