@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Single-file entry point for FlexDock inference.
+Single-file entry point for FlowDock inference.
 Usage:
     python inference.py --protein_ligand_csv data.csv --out_dir results
 """
