@@ -1,0 +1,46 @@
+# environment.yml
+name: flowdock
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  # Python 
+  - python=3.11
+
+  # conda 
+  - ambertools
+  - sqlite=3.45.*
+
+  # pip 
+  - pip
+  - pip:
+      # PyTorch 
+      - --extra-index-url https://download.pytorch.org/whl/
+      - torch==2.1.0+cu121; sys_platform != "darwin" or platform_machine != "arm64"
+      - torch==2.1.0;          sys_platform == "darwin" and platform_machine == "arm64"
+
+      # PyTorch Geometric 
+      - torch_geometric==2.6.1
+      - torch_scatter   -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
+      - torch_sparse    -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
+      - torch_cluster   -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
+      - numpy==1.23.5
+      - scipy==1.15.1
+      - wandb==0.18.7
+      - rdkit==2024.3.6
+      - pandas==2.2.2
+      - biopython==1.79
+      - geomstats==2.8.0
+      - networkx==3.2.1
+      - jupyter==1.1.1
+      - pyyaml==6.0.2
+      - tqdm==4.67.0
+      - lightning==2.4.0
+      - ProDy==2.4.1
+      - e3nn==0.5.5
+      - omegaconf
+      - parmed
+      - spyrmsd
+      - fair-esm
+      - posebusters==0.3.1
