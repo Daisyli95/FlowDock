@@ -54,7 +54,7 @@ By default: 40 poses will be predicted, poses will be ranked (rank1 is the best-
 
 #### Example Command:
 ```bash
-python run_single_protein_inference.py protein.pdb ligand.csv --savings_per_complex 40 --inference_steps 20 --header test --device $1 --python /home/user/anaconda3/envs/flowdock/bin/python --relax_python /home/user/anaconda3/envs/relax/bin/python
+python inference.py protein.pdb ligand.csv --savings_per_complex 40 --inference_steps 20 --header test --device $0 --python /home/username/anaconda3/envs/flowdock/bin/python --relax_python /home/username/anaconda3/envs/relax/bin/python
 ```
 
 
