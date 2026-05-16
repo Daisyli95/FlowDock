@@ -44,8 +44,7 @@ By default: 40 poses will be predicted, poses will be ranked (rank1 is the best-
    - Must contain a column named 'ligand' listing smiles.
 3. **Number of Animations:** 
    - outputs intermediate pkl data, not the final animation PDB. (After `--savings_per_complex`, default is 40)
-4. **Frames in Animation/inference_steps:** 
-   - default is 20.
+
 
 #### Additional Options:
 - `--header`: Name of the result folder.
@@ -55,7 +54,7 @@ By default: 40 poses will be predicted, poses will be ranked (rank1 is the best-
 
 #### Example Command:
 ```bash
-python run_single_protein_inference.py protein.pdb ligand.csv --savings_per_complex 40 --inference_steps 20 --header test --device $1 --python /gxr/luwei/anaconda3/envs/dynamicbind/bin/python --relax_python /gxr/luwei/anaconda3/envs/relax/bin/python
+python run_single_protein_inference.py protein.pdb ligand.csv --savings_per_complex 40 --inference_steps 20 --header test --device $1 --python /home/user/anaconda3/envs/flowdock/bin/python --relax_python /home/user/anaconda3/envs/relax/bin/python
 ```
 
 
